@@ -42,8 +42,8 @@ hr {
 .primary-link:hover {
   background-color: rgb(0, 212, 202);
 }
-.secondary-link:hover{
-    background-color: yellow;
+.secondary-link:hover {
+  background-color: yellow;
 }
 /* list */
 .non-bullet {
@@ -54,45 +54,52 @@ hr {
   padding: 0rem 0.5rem;
 }
 /* navigation */
-.navigation{
-    background-color:var(--primary-color) ;
-    color: white;
-    padding:1rem;
-    border-bottom-left-radius: 1rem;
-
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
-.navigation .link{
-    color: white;
-    
+.navigation .link {
+  color: white;
 }
-.navigation .nav-pills{
-    text-align: right;
+.navigation .nav-pills {
+  text-align: right;
 }
-.navigation .nav-brand{
-    font-weight:bolder;
-    font-size: 1.5rem;
+.navigation .nav-brand {
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
-.navigation .link-active{
-    font-weight: bolder;
+.navigation .link-active {
+  font-weight: bolder;
 }
 /* heaeder */
-.hero{
-    padding: 2rem;
-   
-
+.hero {
+  padding: 2rem;
 }
-.hero .hero-img{
-    max-width: width 350px;
-    display: block;
-    margin:auto;
-  }
-.hero .hero-heading{
-    font-size: 2rem;
-    color:rgb(110, 110, 109);
-    padding-top: 1rem;
-
+.hero .hero-img {
+  max-width: width 350px;
+  display: block;
+  margin: auto;
 }
-.hero .hero-heading .heading-inverted{
-    color: var(--primary-color);
-
+.hero .hero-heading {
+  font-size: 2rem;
+  color: rgb(110, 110, 109);
+  padding-top: 1rem;
+}
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+/* sections */
+.section {
+  padding: 2rem;
+}
+.section h1,
+h2,
+h3 {
+  text-align: center;
+  padding: 2rem;
+}
+.ow {
+  background-color: rgb(131, 125, 125);
 }
