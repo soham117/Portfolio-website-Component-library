@@ -5,6 +5,7 @@
 
 body {
   font-family: "Jura", sans-serif;
+  margin: 0rem;
 }
 hr {
   margin: 2rem 0rem;
@@ -40,7 +41,7 @@ hr {
   border: 1px solid var(--primary-color);
 }
 .primary-link:hover {
-  background-color: rgb(0, 212, 202);
+  background-color:yellowgreen;
 }
 .secondary-link:hover {
   background-color: yellow;
@@ -86,6 +87,7 @@ hr {
   font-size: 2rem;
   color: rgb(110, 110, 109);
   padding-top: 1rem;
+  text-align: center;
 }
 .hero .hero-heading .heading-inverted {
   color: var(--primary-color);
@@ -102,4 +104,14 @@ h3 {
 }
 .ow {
   background-color: rgb(131, 125, 125);
+}
+.footer{
+    background-color:var(--primary-color);
+    padding:  2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer.link{
+    color: white;
 }
