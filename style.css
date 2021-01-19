@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 :root {
-  --primary-color: #34d399;
+  --primary-color: rgb(27, 187, 236);
 }
 
 body {
@@ -12,9 +12,12 @@ hr {
 }
 /* container */
 .container {
-  /* padding-left: 1rem; */
-  /* padding-right: 1rem; */
-  padding: 0rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  /* padding: 0rem 1rem; */
 }
 .container-center {
   max-width: 600px;
@@ -41,10 +44,10 @@ hr {
   border: 1px solid var(--primary-color);
 }
 .primary-link:hover {
-  background-color:yellowgreen;
+  background-color:rgb(241, 33, 33);
 }
 .secondary-link:hover {
-  background-color: yellow;
+  background-color:rgb(236, 222, 17);
 }
 /* list */
 .non-bullet {
@@ -64,6 +67,9 @@ hr {
 .navigation .link {
   color: white;
 }
+.navigation .link:hover {
+  color: rgb(60, 0, 255);
+}
 .navigation .nav-pills {
   text-align: right;
 }
@@ -79,7 +85,7 @@ hr {
   padding: 2rem;
 }
 .hero .hero-img {
-  max-width: width 350px;
+  max-width:350px;
   display: block;
   margin: auto;
 }
@@ -94,24 +100,44 @@ hr {
 }
 /* sections */
 .section {
-  padding: 2rem;
+  /* padding: 2rem; */
+  margin: 0rem;
+
 }
 .section h1,
 h2,
 h3 {
+ 
   text-align: center;
   padding: 2rem;
 }
+.section p{
+ padding: 2rem; 
+}
 .ow {
-  background-color: rgb(131, 125, 125);
+  background-color: rgb(27, 187, 236);
 }
 .footer{
-    background-color:var(--primary-color);
+    background-color: rgb(27, 187, 236);
     padding:  2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top:2rem;
 }
-.footer.link{
+.footer .link{
     color: white;
+}
+.footer .link:hover{
+    color: rgb(60, 0, 255);
+}
+.footer .footer-header{
+  font-weight:bold ;
+  font-size: large;
+}
+.img {
+  max-width: 200px;
+  margin:auto;
+  display: block;
+  border-radius: 40%;
 }
